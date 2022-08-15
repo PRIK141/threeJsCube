@@ -1,8 +1,8 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.App-logo {
+.Applogo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+.canvas > div {
+  mix-blend-mode: multiply;
+  margin-top: 2rem;
+}
+
